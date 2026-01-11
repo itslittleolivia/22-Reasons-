@@ -1,0 +1,91 @@
+body {
+    background-color: #081b29;
+    color: whitesmoke;  
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: #081b29;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    z-index: 100;
+}
+
+.site-name {
+    position: relative;
+    font-size: 30px;
+    color: gold;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    max-width: 1400px;
+    font-size: 30px;
+    text-align: center;
+    color: /* #00abf0; */ gold;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: regular 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+h3 {
+    max-width: 1000x;
+    color: whitesmoke;
+    font-weight: regular 400;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    /* background-color: red; */
+}
+
+/* look into creating a soft edge border */
+#wrapper {
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    padding: 5% 10% 15% 10%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+     /* background-color: /* #081b29; red; */
+    background: linear-gradient(180deg, #FF87AB 0%, #FFF585 100%);
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: bold 700;
+    font-style: italic;
+}
+
+#quote-div {
+    border: 3px none;
+    border-radius: 7px;
+    width: 700px;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-size: 55px;
+    align-items: center;
+    text-align: center;
+    /* background: linear-gradient(180deg, #FF87AB 0%, #FFF585 100%); */
+}
+
+#quote-button {
+    width: 235px;
+    height: 45px;
+    font-size: 17px;    
+    text-align: center;
+    background-color: #081b29;
+   /* background-color: #00abf0; */
+    color: gold;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: regular 400;
+}
